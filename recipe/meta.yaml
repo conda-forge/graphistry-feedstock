@@ -1,5 +1,5 @@
 {% set name = "graphistry" %}
-{% set version = "0.26.1" %}
+{% set version = "0.27.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/graphistry-{{ version }}.tar.gz
-  sha256: bcd2f4fb9e93bc127f6a445c51138f70c23983b65363aa9ccfedfb691d430d96
+  sha256: dd5fae0c8dfbfcd1bc1f8981545c7fe1f767d0082a5d3ca7984a9364a76edea0
 
 build:
   noarch: python
@@ -21,11 +21,12 @@ requirements:
   run:
     - numpy
     - packaging >=20.1
+    - palettable >=3.0
     - pandas >=0.17.0
-    - protobuf >=2.6.0
     - pyarrow >=0.15.0
     - python >=3.6
     - requests
+    - squarify
     - typing-extensions
 
 test:
