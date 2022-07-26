@@ -21,11 +21,12 @@ requirements:
   run:
     - numpy
     - packaging >=20.1
+    - palettable >=3.0
     - pandas >=0.17.0
-    - protobuf >=2.6.0
     - pyarrow >=0.15.0
     - python >=3.6
     - requests
+    - squarify
     - typing-extensions
 
 test:
