@@ -1,11 +1,11 @@
-About graphistry
-================
+About graphistry-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/graphistry-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/graphistry/pygraphistry
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/graphistry-feedstock/blob/main/LICENSE.txt)
 
 Summary: A visual graph analytics library.
 
