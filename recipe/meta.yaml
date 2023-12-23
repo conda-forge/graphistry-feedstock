@@ -21,15 +21,15 @@ requirements:
     - setuptools
   run:
     - numpy
-    - packaging >=20.1
     - palettable >=3.0
     - pandas
     - pyarrow >=0.15.0
     - python >=3.7
     - requests
-    - setuptools
     - squarify
     - typing-extensions
+    - packaging >=20.1
+    - setuptools
 
 test:
   imports:
