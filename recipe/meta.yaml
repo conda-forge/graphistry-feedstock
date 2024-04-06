@@ -1,5 +1,5 @@
 {% set name = "graphistry" %}
-{% set version = "0.33.5" %}
+{% set version = "0.33.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/graphistry-{{ version }}.tar.gz
-  sha256: 86e71f535228b92f35b7a80130c89f77e9c32c6c48bc1fa3105a9d6634af3ebb
+  sha256: 42675ec5eebe5707ee7bd2f8ae436b57097c9790cd329f0c834905646037f538
 
 build:
   noarch: python
