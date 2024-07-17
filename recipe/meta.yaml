@@ -17,15 +17,15 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools
   run:
+    - python >=3.8
     - numpy
     - packaging >=20.1
     - palettable >=3.0
     - pandas
     - pyarrow >=0.15.0
-    - python >=3.7
     - requests
     - setuptools
     - squarify
