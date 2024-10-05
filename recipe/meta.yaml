@@ -29,7 +29,7 @@ requirements:
     - requests
     - setuptools
     - squarify
-    - typing-extensions
+    - typing_extensions
 
 test:
   imports:
