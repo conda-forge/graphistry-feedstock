@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: graphistry
-  version: "0.51.0"
+  version: "0.51.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/graphistry-${{ version }}.tar.gz
-  sha256: 1f48af4225ffbd323e0523e3c6ab4836fa47efb75fec30047ac014a00a9750f4
+  sha256: 5ecef7cb73e09bd2f3f20ddbfe61caf486180faaf6bff5c2fa1e294a6140fc7c
 
 build:
   number: 0
@@ -33,6 +33,7 @@ requirements:
     - setuptools
     - squarify
     - typing_extensions
+    - lark >=1.1,<2
 
 tests:
   - python:
