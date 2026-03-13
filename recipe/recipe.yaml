@@ -33,6 +33,7 @@ requirements:
     - setuptools
     - squarify
     - typing_extensions
+    - lark >=1.1,<2
 
 tests:
   - python:
