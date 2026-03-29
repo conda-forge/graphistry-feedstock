@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: graphistry
-  version: "0.53.5"
+  version: "0.53.6"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/graphistry-${{ version }}.tar.gz
-  sha256: 3a59f59377e7212311fe0127c7711b49a602df0d1aa6f6d46098c3dd62e531ec
+  sha256: 891e42ff7ed38ab851a0fc9b093f51e842ac09b385dd628174971ecb342e12c5
 
 build:
   number: 0
