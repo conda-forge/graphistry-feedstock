@@ -25,15 +25,14 @@ requirements:
   run:
     - python >=${{ python_min }}
     - numpy
-    - packaging >=20.1
     - palettable >=3.0
     - pandas
+    - lark >=1.1,<2
     - pyarrow >=0.15.0
     - requests
-    - setuptools
-    - squarify
     - typing_extensions
-    - lark >=1.1,<2
+    - packaging >=20.1
+    - setuptools
 
 tests:
   - python:
