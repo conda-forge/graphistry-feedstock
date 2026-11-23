@@ -13,7 +13,7 @@ source:
   sha256: ecf812184382048975dc338733d00249fe01cda8281bb860155d7eafcf807f3b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
@@ -45,10 +45,20 @@ tests:
 
 about:
   summary: A visual graph analytics library.
+  description: |
+    PyGraphistry is a Python library for graph visualization, analytics, and AI,
+    with optional GPU acceleration. It turns dataframes (pandas, Apache Arrow,
+    RAPIDS cuDF) into interactive visualizations of graphs with millions of edges,
+    queries graphs with GFQL (Cypher syntax or Python chains), and connects to
+    graph databases and data platforms such as Neo4j, Amazon Neptune, Databricks,
+    and Splunk. This conda package installs the core dependencies only; optional
+    pip extras such as graphistry[ai], graphistry[umap-learn], graphistry[networkx],
+    and graphistry[igraph] are not included and must be installed separately.
   license: BSD-3-Clause
   license_file: LICENSE.txt
   homepage: https://github.com/graphistry/pygraphistry
-  documentation: https://pythonhosted.org/graphistry/
+  repository: https://github.com/graphistry/pygraphistry
+  documentation: https://pygraphistry.readthedocs.io/
 
 extra:
   recipe-maintainers:
